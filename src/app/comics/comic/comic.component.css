@@ -1,0 +1,16 @@
+.comic-card{
+    margin: 0 20px;
+}
+.comic-card .row{margin: 20px;}
+.comic-card button{margin-top: 80px !important;}
+
+.card-left{
+    margin: 20px 0 20px 20px !important;
+}
+.card-left img {max-width: 90%;}
+.card-right{
+    margin: 10px 0px;
+}
+.card-right .title{
+    margin: 10px 0 40px;
+}

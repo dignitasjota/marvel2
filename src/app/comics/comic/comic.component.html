@@ -1,0 +1,20 @@
+
+        <div class="comic-card"
+            *ngFor="let comic of myComic | async">
+            <mat-card class="row">
+                <div fxFlex="35" class="card-left">
+                    <img mat-card-image src="{{comic.thumbnail.path}}.{{comic.thumbnail.extension}}" alt="{{comic.title}}" style="max-width: 90%;">
+                </div>
+                <div class="card-right" fxFlex fxLayout="column">
+                    <mat-card>                
+                        <mat-card-title class="title">{{comic.title}}</mat-card-title>
+                        <mat-card-subtitle class="text">{{comic.description}}</mat-card-subtitle>                
+                    </mat-card>
+                    <button (click)="onVolver()"  mat-raised-button color="primary">
+                        Volver
+                    </button>
+                </div>
+            </mat-card>
+            
+        </div>
+        

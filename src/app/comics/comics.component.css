@@ -1,0 +1,19 @@
+.comic{
+    padding: 30px;
+}
+
+img.mat-card-image{
+    height: 700px;
+}
+.mat-card-title{
+    height: 50px !important;
+    font-size : 15px;
+    font-weight: bold;
+}
+
+.mat-card-footer a:hover{
+    color: #3f51b5;
+    background-color: #fff;
+    border:1px solid #3f51b5;
+}
+
